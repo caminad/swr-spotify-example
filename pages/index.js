@@ -32,6 +32,11 @@ export default function Home() {
         >
           Login with Spotify to continue
         </button>
+        <br />
+        <br />
+        <p>
+          <a href="https://github.com/kitibyte/swr-spotify-example">source</a>
+        </p>
       </main>
     </div>
   )
