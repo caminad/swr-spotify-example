@@ -1,3 +1,7 @@
+# SWR Spotify example
+
+Demo Spotify authentication flow example, based on https://swr.vercel.app/examples/auth. Uses [Authorization Code Flow with Proof Key for Code Exchange (PKCE)](https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-code-flow-with-proof-key-for-code-exchange-pkce) to request an access token that can be refreshed without using a client secret, allowing flow to be fully client-side.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
