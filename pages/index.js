@@ -20,22 +20,27 @@ export default function Home() {
       <Head>
         <title>Please Login</title>
       </Head>
-      <Nav title="ACME" />
-      <main>
-        <h1>ACME!</h1>
-        <p>Do something cool with your Spotify data</p>
+
+      <Nav title="SWR Spotify Example" />
+
+      <main className="p-2 flex flex-col max-w-xs mx-auto my-4 text-center space-y-4">
+        <h1 className="text-4xl">Do something cool with your Spotify data.</h1>
         <br />
         <button
+          className="px-4 py-2 rounded-full bg-gradient-to-tr from-pink-600 to-purple-600 text-white font-bold hover:opacity-75 focus:outline-none focus:shadow-outline"
           onClick={async () => {
             await beginLogin()
           }}
         >
           Login with Spotify to continue
         </button>
-        <br />
-        <br />
         <p>
-          <a href="https://github.com/kitibyte/swr-spotify-example">source</a>
+          <a
+            className="px-4 py-2 text-blue-600 font-bold hover:underline"
+            href="https://github.com/kitibyte/swr-spotify-example"
+          >
+            source
+          </a>
         </p>
       </main>
     </div>
