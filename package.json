@@ -13,7 +13,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "swr": "^0.3.0",
-    "tailwindcss": "^1.7.2"
+    "tailwindcss": "^1.7.3"
   },
   "devDependencies": {
     "prettier": "^2.0.5"
