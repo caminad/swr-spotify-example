@@ -16,6 +16,6 @@
     "tailwindcss": "^1.7.3"
   },
   "devDependencies": {
-    "prettier": "^2.1.0"
+    "prettier": "^2.1.1"
   }
 }
