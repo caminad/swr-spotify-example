@@ -12,10 +12,10 @@
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "swr": "^0.3.4",
+    "swr": "^0.3.5",
     "tailwindcss": "^1.8.10"
   },
   "devDependencies": {
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.2"
   }
 }
