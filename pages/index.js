@@ -37,7 +37,7 @@ export default function Home() {
         <p>
           <a
             className="px-4 py-2 text-blue-600 font-bold hover:underline"
-            href="https://github.com/kitibyte/swr-spotify-example"
+            href="https://github.com/DavidJones418/swr-spotify-example"
           >
             source
           </a>
