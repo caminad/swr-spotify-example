@@ -12,7 +12,7 @@
     "next": "9.5.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "swr": "^0.3.6",
+    "swr": "^0.3.7",
     "tailwindcss": "^1.9.6"
   },
   "devDependencies": {
