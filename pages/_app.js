@@ -1,4 +1,4 @@
 import NextApp from 'next/app'
-import 'tainwindcss/tailwind.css'
+import 'tailwindcss/tailwind.css'
 
 export default NextApp
