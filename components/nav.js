@@ -1,5 +1,6 @@
 import { beginLogin } from 'auth/spotify'
 import useUser from 'auth/use-user'
+import Image from 'next/image'
 
 /**
  * @param {Object} props
@@ -21,7 +22,7 @@ export default function Nav(props) {
       )}
       {user &&
         (user.images[0]?.url ? (
-          <img
+          <Image
             className="w-6 h-6"
             src={user.images[0].url}
             width={32}

@@ -12,7 +12,7 @@ export default function Dashboard() {
     if (loggedOut) {
       mutate(null, false).then(() => Router.replace('/'))
     }
-  }, [loggedOut])
+  }, [loggedOut, mutate])
 
   return (
     <div>

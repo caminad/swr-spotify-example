@@ -1,3 +1,3 @@
 module.exports = {
-  purge: ['{components,pages}/**/*'],
+  content: ['components/**', 'pages/**'],
 }
